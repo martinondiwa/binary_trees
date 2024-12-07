@@ -76,6 +76,14 @@ binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 avl_t *array_to_avl(int *array, size_t size);
 void binary_tree_delete(binary_tree_t *tree);
 /* Function prototypes */
+binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
+void binary_tree_print(const binary_tree_t *tree);
+/* Function prototypes */
+binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
+heap_t *heap_insert(heap_t **root, int value);
+heap_t *array_to_heap(int *array, size_t size);
+void binary_tree_print(const binary_tree_t *tree);
+/* Function prototypes */
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
 binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 int binary_tree_balance(const binary_tree_t *tree);
